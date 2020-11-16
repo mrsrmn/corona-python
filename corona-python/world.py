@@ -80,3 +80,34 @@ class World:
         else:
             return corona['casesPerOneMillion']
 
+    @staticmethod
+    def deaths_per_one_million():
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['deathsPerOneMillion']
+
+    @staticmethod
+    def total_tests():
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['tests']
+
+    @staticmethod
+    def population():
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['population']
+
+    @staticmethod
+    def affected_countries():
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['affectedCountries']
+
+    @staticmethod
+    def __version__():
+        return "0.1.1"
