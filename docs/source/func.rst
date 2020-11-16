@@ -18,7 +18,7 @@ A List of Classes
 
 * Parameter: None
 
-Country()
+class: Country()
 -----------------
 .. code-block::
   :linenos:
@@ -171,3 +171,6 @@ Country()
 
 - Parameters: None
 - Returns: Number of the tests per one people in the specified country
+
+class: World()
+-----------------

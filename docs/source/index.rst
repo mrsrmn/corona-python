@@ -20,3 +20,4 @@ The GitHub repository can be found here: https://github.com/MakufonSkifto/corona
 
    install
    func
+   license
