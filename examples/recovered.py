@@ -1,6 +1,6 @@
 from corona_python import Country, World
 
-country = Country("Turkey")
+country = Country("Zimbabwe")
 world = World()
 
 print(country.recovered())

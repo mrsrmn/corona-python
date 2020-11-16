@@ -1,6 +1,6 @@
 from corona_python import Country, World
 
-country = Country("Turkey")
+country = Country("Germany")
 world = World()
 
 print(country.total_cases())
