@@ -12,6 +12,7 @@ Indices and tables
 ==================
 
 The GitHub repository can be found here: https://github.com/MakufonSkifto/corona-python
+PyPI: https://pypi.org/project/corona-python/
 
 
 
