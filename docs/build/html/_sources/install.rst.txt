@@ -9,14 +9,14 @@ To install corona-python, do:
 .. code-block:: python
   :linenos:
 
-  pip install corona_python
+  pip install corona-python
 
 or
 
 .. code-block:: python
   :linenos:
 
-  python -m pip install corona_python
+  python -m pip install corona-python
 
 
 Examples
@@ -88,6 +88,6 @@ More detailed explanations of the functions can be found in `Functions <https://
 Errors
 -----------------
 
-The module will release ``KeyError`` if the given country is invalid
+The module will raise ``KeyError`` if the given country is invalid
 
 If the module doesn't return anything, there might be a problem with the API
