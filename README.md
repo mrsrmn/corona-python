@@ -1,4 +1,5 @@
-[![Documentation Status](https://readthedocs.org/projects/corona-python/badge/?version=latest)](https://corona-python.readthedocs.io/en/latest/?badge=latest) [![License](https://img.shields.io/github/license/MakufonSkifto/corona-python)](LICENSE.md) [![GitHub stars](https://img.shields.io/github/stars/MakufonSkifto/corona-python)](https://github.com/ExpDev07/coronavirus-tracker-api/stargazers)
+[![Documentation Status](https://readthedocs.org/projects/corona-python/badge/?version=latest)](https://corona-python.readthedocs.io/en/latest/?badge=latest) [![License](https://img.shields.io/github/license/MakufonSkifto/corona-python)](LICENSE.md) [![GitHub stars](https://img.shields.io/github/stars/MakufonSkifto/corona-python)](https://github.com/ExpDev07/coronavirus-tracker-api/stargazers) [![PyPI version](https://badge.fury.io/py/corona-python.svg)](https://badge.fury.io/py/corona-python)
+
  
 
 # corona_python
