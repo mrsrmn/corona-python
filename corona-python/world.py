@@ -66,3 +66,17 @@ class World:
         else:
             return corona['active']
 
+    @staticmethod
+    def critical_cases():
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['todayRecovered']
+
+    @staticmethod
+    def cases_per_one_million():
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['casesPerOneMillion']
+
