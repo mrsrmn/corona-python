@@ -10,3 +10,6 @@ To install corona-python, do:
 or 
 
 `python -m pip install corona-python`
+
+## Functions
+

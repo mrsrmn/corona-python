@@ -181,4 +181,3 @@ class Country:
             return None
         else:
             return corona["oneTestPerPeople"]
-
