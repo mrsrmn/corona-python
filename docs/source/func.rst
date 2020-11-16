@@ -299,3 +299,19 @@ class: World()
 
 - Parameters: None
 - Returns: Number of the tests per one people worldwide
+
+.. code-block::
+  :linenos:
+
+  population()
+
+- Parameters: None
+- Returns: Number of the people in the world
+
+.. code-block::
+  :linenos:
+
+  affected_countries()
+
+- Parameters: None
+- Returns: Number of the people in the world
