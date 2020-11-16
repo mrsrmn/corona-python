@@ -1,4 +1,4 @@
-[![Documentation Status](https://readthedocs.org/projects/corona-python/badge/?version=latest)](https://corona-python.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/corona-python/badge/?version=latest)](https://corona-python.readthedocs.io/en/latest/?badge=latest) [![License](https://img.shields.io/github/license/ExpDev07/corona-python)](LICENSE.md)
 
 
 # corona_python
