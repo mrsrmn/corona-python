@@ -214,3 +214,88 @@ class: World()
 
 - Parameters: None
 - Returns: Number of the total deaths today worldwide
+
+  recovered()
+
+- Parameters: None
+- Returns: Number of the total recovered people worldwide
+
+.. code-block::
+  :linenos:
+
+  today_recovered()
+
+- Parameters: None
+- Returns: Number of the total recovered people today worldwide
+
+.. code-block::
+  :linenos:
+
+  active_cases()
+
+- Parameters: None
+- Returns: Number of the active cases worldwide
+
+.. code-block::
+  :linenos:
+
+  critical_cases()
+
+- Parameters: None
+- Returns: Number of the critical cases worldwide
+
+.. code-block::
+  :linenos:
+
+  cases_per_one_million()
+
+- Parameters: None
+- Returns: Number of the cases per one million worldwide
+
+.. code-block::
+  :linenos:
+
+  deaths_per_one_million()
+
+- Parameters: None
+- Returns: Number of the deaths per one million worldwide
+
+.. code-block::
+  :linenos:
+
+  total_tests()
+
+- Parameters: None
+- Returns: Number of the total tests worldwide
+
+.. code-block::
+  :linenos:
+
+  tests_per_one_million()
+
+- Parameters: None
+- Returns: Number of the tests per one million worldwide
+
+.. code-block::
+  :linenos:
+
+  one_case_per_people()
+
+- Parameters: None
+- Returns: Number of the cases per one people worldwide
+
+.. code-block::
+  :linenos:
+
+  one_death_per_people()
+
+- Parameters: None
+- Returns: Number of the deaths per one people in the worldwide
+
+.. code-block::
+  :linenos:
+
+  one_test_per_people()
+
+- Parameters: None
+- Returns: Number of the tests per one people worldwide
