@@ -13,13 +13,17 @@ or
 
 ## Usage
 ```python
-from corona_python import Country, World
+from corona_python import Country
 country = Country("USA")
 
 print(country.total_cases())
 ```
 
 More examples are provided in the [examples folder](https://github.com/MakufonSkifto/corona-python/tree/main/examples)
+
+## Documentation
+
+Documentation can be found [here](https://corona-python.readthedocs.io)
 
 ## Functions
 
