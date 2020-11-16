@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="corona_python",
-    version="0.1.1",
+    version="0.1.2",
     author="MakufonSkifto",
     author_email="emirsurmen@gmail.com",
     license="MIT",
