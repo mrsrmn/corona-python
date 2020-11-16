@@ -73,3 +73,9 @@ affected_countries()
 ```
 
 More detailed explanations of the functions can be found in [the docs](https://corona-python.readthedocs.io)
+
+## Errors
+
+The module will release ``KeyError`` if the given country is invalid
+
+If the module doesn't return anything, there might be a problem with the API
