@@ -9,14 +9,14 @@ To install corona-python, do:
 .. code-block:: python
   :linenos:
 
-  pip install corona_python
+  pip install corona-python
 
 or
 
 .. code-block:: python
   :linenos:
 
-  python -m pip install corona_python
+  python -m pip install corona-python
 
 
 Examples

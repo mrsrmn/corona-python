@@ -8,11 +8,11 @@ A Python API Wrapper for coronavirus stats
 
 To install corona-python, do:
 
-`pip install corona_python`
+`pip install corona-python`
 
 or 
 
-`python -m pip install corona_python`
+`python -m pip install corona-python`
 
 ## Usage
 ```python
