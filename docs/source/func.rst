@@ -174,3 +174,43 @@ class: Country()
 
 class: World()
 -----------------
+
+.. code-block::
+  :linenos:
+
+  last_updated()
+
+- Parameters: None
+- Returns: The time when the API was last updated
+
+.. code-block::
+  :linenos:
+
+  total_cases()
+
+- Parameters: None
+- Returns: Number of the total cases worldwide
+
+.. code-block::
+  :linenos:
+
+  today_cases()
+
+- Parameters: None
+- Returns: Number of the total cases today worldwide
+
+.. code-block::
+  :linenos:
+
+  total_deaths()
+
+- Parameters: None
+- Returns: Number of the total deaths worldwide
+
+.. code-block::
+  :linenos:
+
+  today_deaths()
+
+- Parameters: None
+- Returns: Number of the total deaths today worldwide
