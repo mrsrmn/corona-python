@@ -215,6 +215,9 @@ class: World()
 - Parameters: None
 - Returns: Number of the total deaths today worldwide
 
+.. code-block::
+  :linenos:
+
   recovered()
 
 - Parameters: None
