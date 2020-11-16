@@ -1,5 +1,5 @@
-[![Documentation Status](https://readthedocs.org/projects/corona-python/badge/?version=latest)](https://corona-python.readthedocs.io/en/latest/?badge=latest)
-
+[![Documentation Status](https://readthedocs.org/projects/corona-python/badge/?version=latest)](https://corona-python.readthedocs.io/en/latest/?badge=latest) [![License](https://img.shields.io/github/license/MakufonSkifto/corona-python)](LICENSE.md) [![GitHub stars](https://img.shields.io/github/stars/MakufonSkifto/corona-python)](https://github.com/ExpDev07/coronavirus-tracker-api/stargazers)
+ 
 
 # corona_python
 A Python API Wrapper for coronavirus stats
@@ -56,6 +56,7 @@ one_test_per_people()
 World:
 ```
 last_updated()
+flag()
 total_cases()
 today_cases()
 total_deaths()
