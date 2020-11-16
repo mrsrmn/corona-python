@@ -136,6 +136,3 @@ class World:
         else:
             return corona['affectedCountries']
 
-    @staticmethod
-    def __version__():
-        return "0.1.1"

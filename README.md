@@ -1,15 +1,68 @@
-# coronapython
+# corona_python
 A Python API Wrapper for coronavirus stats
 
 ## Installation
 
 To install corona-python, do:
 
-`pip install corona-python`
+`pip install corona_python`
 
 or 
 
-`python -m pip install corona-python`
+`python -m pip install corona_python`
+
+## Usage
+```python
+from corona_python import Country, World
+country = Country("USA")
+
+print(country.total_cases())
+```
+
+More examples are provided in the [examples folder](https://github.com/MakufonSkifto/corona-python/tree/main/examples)
 
 ## Functions
 
+Country:
+```
+last_updated()
+flag()
+total_cases()
+today_cases()
+total_deaths()
+today_deaths()
+recovered()
+today_recovered()
+active()
+critical()
+cases_per_one_million()
+deaths_per_one_million()
+total_tests()
+tests_per_one_million()
+population()
+continent()
+one_case_per_people()
+one_death_per_people()
+one_test_per_people()
+```
+
+World:
+```
+last_updated()
+flag()
+total_cases()
+today_cases()
+total_deaths()
+today_deaths()
+recovered()
+today_recovered()
+active_cases()
+critical_cases()
+cases_per_one_million()
+deaths_per_one_million()
+total_tests()
+population()
+affected_countries()
+```
+
+More detailed explanations of the functions can be found in [the docs](https://corona-python.readthedocs.io)
