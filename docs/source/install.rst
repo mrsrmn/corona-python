@@ -88,6 +88,6 @@ More detailed explanations of the functions can be found in `Functions <https://
 Errors
 -----------------
 
-The module will release ``KeyError`` if the given country is invalid
+The module will raise ``KeyError`` if the given country is invalid
 
 If the module doesn't return anything, there might be a problem with the API
