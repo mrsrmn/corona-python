@@ -1,4 +1,4 @@
-# corona-python
+# coronapython
 A Python API Wrapper for coronavirus stats
 
 ## Installation
