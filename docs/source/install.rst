@@ -2,19 +2,25 @@ Getting Started
 =========================================
 
 Install
-==================
+-----------------
 
 To install corona-python, do:
 
-`pip install corona_python`
+.. code-block:: python
+  :linenos:
+
+  pip install corona_python
 
 or
 
-`python -m pip install corona_python`
+.. code-block:: python
+  :linenos:
+
+  python -m pip install corona_python
 
 
 Examples
-==================
+-----------------
 
 .. code-block:: python
   :linenos:
@@ -27,13 +33,14 @@ Examples
 
 More examples are provided in the `examples folder <https://github.com/MakufonSkifto/corona-python/tree/main/examples>`_
 
-Functions
-==================
+Function List
+-----------------
 
 Country:
 
 .. code-block:: python
   :linenos:
+
   last_updated()
   flag()
   total_cases()
@@ -59,6 +66,7 @@ World:
 
 .. code-block:: python
   :linenos:
+
   last_updated()
   flag()
   total_cases()
