@@ -68,7 +68,6 @@ World:
   :linenos:
 
   last_updated()
-  flag()
   total_cases()
   today_cases()
   total_deaths()
