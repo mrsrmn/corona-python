@@ -135,4 +135,3 @@ class World:
             return None
         else:
             return corona['affectedCountries']
-
