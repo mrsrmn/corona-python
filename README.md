@@ -57,7 +57,6 @@ one_test_per_people()
 World:
 ```
 last_updated()
-flag()
 total_cases()
 today_cases()
 total_deaths()
