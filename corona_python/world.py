@@ -10,7 +10,9 @@ class World:
 
     @staticmethod
     def last_updated():
-        """The time when the API was last updated"""
+        """
+        :returns: (int) The time when the API was last updated
+        """
 
         if request.status_code != 200:
             return None
@@ -21,7 +23,9 @@ class World:
 
     @staticmethod
     def total_cases():
-        """Number of total cases"""
+        """
+        :returns: (int) Number of total cases
+        """
 
         if request.status_code != 200:
             return None
@@ -30,7 +34,9 @@ class World:
 
     @staticmethod
     def today_cases():
-        """Number of the cases today"""
+        """
+        :returns: (int) Number of the cases today
+        """
 
         if request.status_code != 200:
             return None
@@ -39,7 +45,9 @@ class World:
 
     @staticmethod
     def total_deaths():
-        """Number of the total deaths"""
+        """
+        :returns: (int) Number of the total deaths
+        """
 
         if request.status_code != 200:
             return None
@@ -48,7 +56,9 @@ class World:
 
     @staticmethod
     def today_deaths():
-        """Number of the deaths today"""
+        """
+        :returns: (int) Number of the deaths today
+        """
 
         if request.status_code != 200:
             return None
@@ -57,7 +67,9 @@ class World:
 
     @staticmethod
     def recovered():
-        """Number of total recovered"""
+        """
+        :returns: (int) Number of total recovered
+        """
 
         if request.status_code != 200:
             return None
@@ -66,7 +78,9 @@ class World:
 
     @staticmethod
     def today_recovered():
-        """Number of the recoveries today"""
+        """
+        :returns: (int) Number of the recoveries today
+        """
 
         if request.status_code != 200:
             return None
@@ -75,7 +89,9 @@ class World:
 
     @staticmethod
     def active_cases():
-        """Number of active cases"""
+        """
+        :returns: Number of active cases
+        """
 
         if request.status_code != 200:
             return None
@@ -84,7 +100,9 @@ class World:
 
     @staticmethod
     def critical_cases():
-        """Number of critical cases"""
+        """
+        :returns: (int) Number of critical cases
+        """
 
         if request.status_code != 200:
             return None
@@ -93,7 +111,9 @@ class World:
 
     @staticmethod
     def cases_per_one_million():
-        """Number of cases per one million"""
+        """
+        :returns: (int) Number of cases per one million
+        """
 
         if request.status_code != 200:
             return None
@@ -102,7 +122,9 @@ class World:
 
     @staticmethod
     def deaths_per_one_million():
-        """Number of deaths per one million"""
+        """
+        :returns: (int) Number of deaths per one million
+        """
 
         if request.status_code != 200:
             return None
@@ -111,7 +133,9 @@ class World:
 
     @staticmethod
     def total_tests():
-        """Number of total tests"""
+        """
+        :returns: (int) Number of total tests
+        """
 
         if request.status_code != 200:
             return None
@@ -120,7 +144,9 @@ class World:
 
     @staticmethod
     def population():
-        """Population of the world"""
+        """
+        :returns: (int) Population of the world
+        """
 
         if request.status_code != 200:
             return None
@@ -129,7 +155,9 @@ class World:
 
     @staticmethod
     def affected_countries():
-        """Number of affected countries"""
+        """
+        :returns: (int) Number of affected countries
+        """
 
         if request.status_code != 200:
             return None
