@@ -187,7 +187,7 @@ class World:
             return corona['oneCasePerPeople']
 
     @staticmethod
-    def one_deaths_per_people():
+    def one_death_per_people():
         """
         :returns: (int) Number of tests per one million people
         """
@@ -195,4 +195,49 @@ class World:
         if request.status_code != 200:
             return None
         else:
-            return corona['oneCasePerPeople']
+            return corona['oneDeathPerPeople']
+
+    @staticmethod
+    def one_test_per_people():
+        """
+        :returns: (int) Number of tests per one million people
+        """
+
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['oneTestPerPeople']
+
+    @staticmethod
+    def active_per_million():
+        """
+        :returns: (int) Number of tests per one million people
+        """
+
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['activePerOneMillion']
+
+    @staticmethod
+    def recovered_per_million():
+        """
+        :returns: (int) Number of tests per one million people
+        """
+
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['recoveredPerOneMillion']
+
+    @staticmethod
+    def critical_per_million():
+        """
+        :returns: (int) Number of tests per one million people
+        """
+
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['criticalPerOneMillion']
+
