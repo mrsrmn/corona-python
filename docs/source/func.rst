@@ -287,3 +287,59 @@ class: World()
 
 - Parameters: None
 - Returns: (int) Number of the people in the world
+
+.. code-block::
+  :linenos:
+
+  tests_per_one_million()
+
+- Parameters: None
+- Returns: (int) Number of the tests per one million worldwide
+
+.. code-block::
+  :linenos:
+
+  one_case_per_people()
+
+- Parameters: None
+- Returns: (int) Number of cases per one person
+
+.. code-block::
+  :linenos:
+
+  one_death_per_people()
+
+- Parameters: None
+- Returns: (int) Number of deaths per one person
+
+.. code-block::
+  :linenos:
+
+  one_test_per_people()
+
+- Parameters: None
+- Returns: (int) Number of tests per one person
+
+.. code-block::
+  :linenos:
+
+  active_per_million()
+
+- Parameters: None
+- Returns: (int) Number of active cases per one million people
+
+.. code-block::
+  :linenos:
+
+  recovered_per_million()
+
+- Parameters: None
+- Returns: (int) Number of recovered cases per one million people
+
+.. code-block::
+  :linenos:
+
+  critical_per_million()
+
+- Parameters: None
+- Returns: (int) Number of critical cases per one million people
