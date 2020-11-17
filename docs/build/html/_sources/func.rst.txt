@@ -34,7 +34,7 @@ class: Country()
   flag()
 
 - Parameters: None
-- Returns: The flag of the specified country
+- Returns: (str) The flag of the specified country
 
 .. code-block::
   :linenos:
@@ -42,7 +42,7 @@ class: Country()
   population()
 
 - Parameters: None
-- Returns: Number of the residents in the specified country
+- Returns: (int) Number of the residents in the specified country
 
 .. code-block::
   :linenos:
@@ -50,7 +50,7 @@ class: Country()
   continent()
 
 - Parameters: None
-- Returns: The continent of the specified country
+- Returns: (str) The continent of the specified country
 
 .. code-block::
   :linenos:
@@ -58,7 +58,7 @@ class: Country()
   total_cases()
 
 - Parameters: None
-- Returns: Number of the total cases in the specified country
+- Returns: (int) Number of the total cases in the specified country
 
 .. code-block::
   :linenos:
@@ -66,7 +66,7 @@ class: Country()
   today_cases()
 
 - Parameters: None
-- Returns: Number of the total cases today in the specified country
+- Returns: (int) Number of the total cases today in the specified country
 
 .. code-block::
   :linenos:
@@ -74,7 +74,7 @@ class: Country()
   total_deaths()
 
 - Parameters: None
-- Returns: Number of the total deaths in the specified country
+- Returns: (int) Number of the total deaths in the specified country
 
 .. code-block::
   :linenos:
@@ -82,7 +82,7 @@ class: Country()
   today_deaths()
 
 - Parameters: None
-- Returns: Number of the total deaths today in the specified country
+- Returns: (int) Number of the total deaths today in the specified country
 
 .. code-block::
   :linenos:
@@ -90,7 +90,7 @@ class: Country()
   recovered()
 
 - Parameters: None
-- Returns: Number of the total recovered people in the specified country
+- Returns: (int) Number of the total recovered people in the specified country
 
 .. code-block::
   :linenos:
@@ -98,7 +98,7 @@ class: Country()
   today_recovered()
 
 - Parameters: None
-- Returns: Number of the total recovered people today in the specified country
+- Returns: (int) Number of the total recovered people today in the specified country
 
 .. code-block::
   :linenos:
@@ -106,7 +106,7 @@ class: Country()
   active()
 
 - Parameters: None
-- Returns: Number of the active cases in the specified country
+- Returns: (int) Number of the active cases in the specified country
 
 .. code-block::
   :linenos:
@@ -114,7 +114,7 @@ class: Country()
   critical()
 
 - Parameters: None
-- Returns: Number of the critical cases in the specified country
+- Returns: (int) Number of the critical cases in the specified country
 
 .. code-block::
   :linenos:
@@ -130,7 +130,7 @@ class: Country()
   deaths_per_one_million()
 
 - Parameters: None
-- Returns: Number of the deaths per one million in the specified country
+- Returns: (int) Number of the deaths per one million in the specified country
 
 .. code-block::
   :linenos:
@@ -138,7 +138,7 @@ class: Country()
   total_tests()
 
 - Parameters: None
-- Returns: Number of the total tests in the specified country
+- Returns: (int) Number of the total tests in the specified country
 
 .. code-block::
   :linenos:
@@ -146,7 +146,7 @@ class: Country()
   tests_per_one_million()
 
 - Parameters: None
-- Returns: Number of the tests per one million in the specified country
+- Returns: (int) Number of the tests per one million in the specified country
 
 .. code-block::
   :linenos:
@@ -154,7 +154,7 @@ class: Country()
   one_case_per_people()
 
 - Parameters: None
-- Returns: Number of the cases per one people in the specified country
+- Returns: (int) Number of the cases per one people in the specified country
 
 .. code-block::
   :linenos:
@@ -162,7 +162,7 @@ class: Country()
   one_death_per_people()
 
 - Parameters: None
-- Returns: Number of the deaths per one people in the specified country
+- Returns: (int) Number of the deaths per one people in the specified country
 
 .. code-block::
   :linenos:
@@ -170,7 +170,7 @@ class: Country()
   one_test_per_people()
 
 - Parameters: None
-- Returns: Number of the tests per one people in the specified country
+- Returns: (int) Number of the tests per one people in the specified country
 
 class: World()
 -----------------
@@ -181,7 +181,7 @@ class: World()
   last_updated()
 
 - Parameters: None
-- Returns: The time when the API was last updated
+- Returns: (int) The time when the API was last updated
 
 .. code-block::
   :linenos:
@@ -197,7 +197,7 @@ class: World()
   today_cases()
 
 - Parameters: None
-- Returns: Number of the total cases today worldwide
+- Returns: (int) Number of the total cases today worldwide
 
 .. code-block::
   :linenos:
@@ -205,7 +205,7 @@ class: World()
   total_deaths()
 
 - Parameters: None
-- Returns: Number of the total deaths worldwide
+- Returns: (int) Number of the total deaths worldwide
 
 .. code-block::
   :linenos:
@@ -213,12 +213,15 @@ class: World()
   today_deaths()
 
 - Parameters: None
-- Returns: Number of the total deaths today worldwide
+- Returns: (int) Number of the total deaths today worldwide
+
+.. code-block::
+  :linenos:
 
   recovered()
 
 - Parameters: None
-- Returns: Number of the total recovered people worldwide
+- Returns: (int) Number of the total recovered people worldwide
 
 .. code-block::
   :linenos:
@@ -226,7 +229,7 @@ class: World()
   today_recovered()
 
 - Parameters: None
-- Returns: Number of the total recovered people today worldwide
+- Returns: (int) Number of the total recovered people today worldwide
 
 .. code-block::
   :linenos:
@@ -234,7 +237,7 @@ class: World()
   active_cases()
 
 - Parameters: None
-- Returns: Number of the active cases worldwide
+- Returns: (int) Number of the active cases worldwide
 
 .. code-block::
   :linenos:
@@ -242,7 +245,7 @@ class: World()
   critical_cases()
 
 - Parameters: None
-- Returns: Number of the critical cases worldwide
+- Returns: (int) Number of the critical cases worldwide
 
 .. code-block::
   :linenos:
@@ -250,7 +253,7 @@ class: World()
   cases_per_one_million()
 
 - Parameters: None
-- Returns: Number of the cases per one million worldwide
+- Returns: (int) Number of the cases per one million worldwide
 
 .. code-block::
   :linenos:
@@ -258,7 +261,7 @@ class: World()
   deaths_per_one_million()
 
 - Parameters: None
-- Returns: Number of the deaths per one million worldwide
+- Returns: (int) Number of the deaths per one million worldwide
 
 .. code-block::
   :linenos:
@@ -266,7 +269,7 @@ class: World()
   total_tests()
 
 - Parameters: None
-- Returns: Number of the total tests worldwide
+- Returns: (int) Number of the total tests worldwide
 
 
 .. code-block::
@@ -275,7 +278,7 @@ class: World()
   population()
 
 - Parameters: None
-- Returns: Number of the people in the world
+- Returns: (int) Number of the people in the world
 
 .. code-block::
   :linenos:
@@ -283,4 +286,4 @@ class: World()
   affected_countries()
 
 - Parameters: None
-- Returns: Number of the people in the world
+- Returns: (int) Number of the people in the world
