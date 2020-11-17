@@ -163,3 +163,36 @@ class World:
             return None
         else:
             return corona['affectedCountries']
+
+    @staticmethod
+    def tests_per_one_million():
+        """
+        :returns: (int) Number of tests per one million people
+        """
+
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['testsPerOneMillion']
+
+    @staticmethod
+    def one_case_per_people():
+        """
+        :returns: (int) Number of tests per one million people
+        """
+
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['oneCasePerPeople']
+
+    @staticmethod
+    def one_deaths_per_people():
+        """
+        :returns: (int) Number of tests per one million people
+        """
+
+        if request.status_code != 200:
+            return None
+        else:
+            return corona['oneCasePerPeople']
