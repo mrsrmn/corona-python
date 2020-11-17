@@ -178,7 +178,7 @@ class World:
     @staticmethod
     def one_case_per_people():
         """
-        :returns: (int) Number of cases per one million people
+        :returns: (int) Number of cases per one person
         """
 
         if request.status_code != 200:
@@ -189,7 +189,7 @@ class World:
     @staticmethod
     def one_death_per_people():
         """
-        :returns: (int) Number of deaths per one million people
+        :returns: (int) Number of deaths per one person
         """
 
         if request.status_code != 200:
@@ -200,7 +200,7 @@ class World:
     @staticmethod
     def one_test_per_people():
         """
-        :returns: (int) Number of one tests per people
+        :returns: (int) Number of one tests per one person
         """
 
         if request.status_code != 200:

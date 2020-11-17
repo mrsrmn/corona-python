@@ -70,6 +70,13 @@ deaths_per_one_million()
 total_tests()
 population()
 affected_countries()
+tests_per_one_million()
+one_case_per_people()
+one_death_per_people()
+one_test_per_people()
+active_per_million()
+recovered_per_million()
+critical_per_million()
 ```
 
 More detailed explanations of the functions can be found in [the docs](https://corona-python.readthedocs.io)
