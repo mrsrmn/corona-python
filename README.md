@@ -85,4 +85,4 @@ More detailed explanations of the functions can be found in [the docs](https://c
 
 The module will raise ``KeyError`` if the given country is invalid
 
-If the module doesn't return anything, there might be a problem with the API
+If the module doesn't return anything, there might be a problem with the API. To report the problem, contact me, the developer or create an issue.
