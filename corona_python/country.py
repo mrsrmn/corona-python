@@ -255,3 +255,16 @@ class Country:
             pass
         else:
             return corona["oneTestPerPeople"]
+
+    def get_all(self):
+        """
+        :returns: (int) Number of critical cases per one million people
+        """
+
+        request = requests.get(f"https://disease.sh/v2/countries/{self.country.replace(' ', '%20')}")
+        corona = json.loads(request.content)
+
+        if request.status_code != 200:
+            pass
+        else:
+            return corona
