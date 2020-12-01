@@ -240,3 +240,14 @@ class World:
             pass
         else:
             return corona['criticalPerOneMillion']
+
+    @staticmethod
+    def get_all():
+        """
+        :returns: (str) Returns the full data in JSON format
+        """
+
+        if request.status_code != 200:
+            pass
+        else:
+            return corona
