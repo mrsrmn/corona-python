@@ -172,6 +172,14 @@ class: Country()
 - Parameters: None
 - Returns: (int) Number of the tests per one people in the specified country
 
+.. code-block::
+  :linenos:
+
+  get_all()
+
+- Parameters: None
+- Returns: (str) Returns the full data in JSON format
+
 class: World()
 -----------------
 
@@ -343,3 +351,11 @@ class: World()
 
 - Parameters: None
 - Returns: (int) Number of critical cases per one million people
+
+.. code-block::
+  :linenos:
+
+  get_all()
+
+- Parameters: None
+- Returns: (str) Returns the full data in JSON format
