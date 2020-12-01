@@ -52,6 +52,7 @@ continent()
 one_case_per_people()
 one_death_per_people()
 one_test_per_people()
+get_all()
 ```
 
 World:
@@ -77,6 +78,7 @@ one_test_per_people()
 active_per_million()
 recovered_per_million()
 critical_per_million()
+get_all()
 ```
 
 More detailed explanations of the functions can be found in [the docs](https://corona-python.readthedocs.io)
