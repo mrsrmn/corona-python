@@ -15,7 +15,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             s = corona["updated"] / 1000.0
             updated = datetime.datetime.fromtimestamp(s).strftime("%d-%m-%Y %I:%M:%S UTC")
@@ -28,7 +28,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['cases']
 
@@ -39,7 +39,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['todayCases']
 
@@ -50,7 +50,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['deaths']
 
@@ -61,7 +61,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['todayDeaths']
 
@@ -72,7 +72,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['recovered']
 
@@ -83,7 +83,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['todayRecovered']
 
@@ -94,7 +94,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['active']
 
@@ -105,7 +105,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['todayRecovered']
 
@@ -116,7 +116,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['casesPerOneMillion']
 
@@ -127,7 +127,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['deathsPerOneMillion']
 
@@ -138,7 +138,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['tests']
 
@@ -149,7 +149,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['population']
 
@@ -160,7 +160,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['affectedCountries']
 
@@ -171,7 +171,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['testsPerOneMillion']
 
@@ -182,7 +182,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['oneCasePerPeople']
 
@@ -193,7 +193,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['oneDeathPerPeople']
 
@@ -204,7 +204,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['oneTestPerPeople']
 
@@ -215,7 +215,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['activePerOneMillion']
 
@@ -226,7 +226,7 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['recoveredPerOneMillion']
 
@@ -237,6 +237,6 @@ class World:
         """
 
         if request.status_code != 200:
-            return None
+            pass
         else:
             return corona['criticalPerOneMillion']
