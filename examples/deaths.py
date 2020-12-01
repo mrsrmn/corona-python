@@ -1,7 +1,8 @@
-import requests
-import json
+from corona_python import Country, World
 
-request = requests.get("reddit.com/r/dankmemes/hot.json")
-meme = json.loads(request.content)
+country = Country("Turkey")
+world = World()
 
-print(meme["data"]["children"][0])
+print(country.total_deaths())
+print(world.total_deaths())
+
