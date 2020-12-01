@@ -16,7 +16,7 @@ class Country:
         request = requests.get("https://disease.sh/v2/all")
         corona = json.loads(request.content)
         if request.status_code != 200:
-            return None
+            pass
         else:
             s = corona["updated"] / 1000.0
             updated = datetime.datetime.fromtimestamp(s).strftime("%d-%m-%Y %I:%M:%S UTC")
@@ -31,7 +31,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["countryInfo"]["flag"]
 
@@ -44,7 +44,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["cases"]
 
@@ -57,7 +57,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["todayCases"]
 
@@ -70,7 +70,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["deaths"]
 
@@ -83,7 +83,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["todayDeaths"]
 
@@ -96,7 +96,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["recovered"]
 
@@ -109,7 +109,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["todayRecovered"]
 
@@ -122,7 +122,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["active"]
 
@@ -135,7 +135,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["deaths"]
 
@@ -148,7 +148,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["casesPerOneMillion"]
 
@@ -161,7 +161,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["deathsPerOneMillion"]
 
@@ -174,7 +174,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["tests"]
 
@@ -187,7 +187,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["testsPerOneMillion"]
 
@@ -200,7 +200,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["population"]
 
@@ -213,7 +213,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["continent"]
 
@@ -226,7 +226,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["oneCasePerPeople"]
 
@@ -239,7 +239,7 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["oneDeathPerPeople"]
 
@@ -252,6 +252,6 @@ class Country:
         corona = json.loads(request.content)
 
         if request.status_code != 200 and request.status_code != 404:
-            return None
+            pass
         else:
             return corona["oneTestPerPeople"]
