@@ -1,7 +1,6 @@
 import requests
 import json
 import datetime
-from .all import All
 
 request = requests.get("https://disease.sh/v2/all")
 corona = json.loads(request.content)
