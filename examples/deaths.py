@@ -5,4 +5,3 @@ world = World()
 
 print(country.total_deaths())
 print(world.total_deaths())
-
