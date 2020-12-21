@@ -251,29 +251,4 @@ class World:
         if request.status_code != 200:
             pass
         else:
-            s = corona["updated"] / 1000.0
-            updated = datetime.datetime.fromtimestamp(s).strftime("%d-%m-%Y %I:%M:%S UTC")
-
-            return All(
-                cases_per_one_million=corona['criticalPerOneMillion'],
-                recovered_per_one_million=corona['recoveredPerOneMillion'],
-                active_per_one_million=corona['activePerOneMillion'],
-                one_test_per_people=corona['oneTestPerPeople'],
-                one_death_per_people=corona['oneDeathPerPeople'],
-                one_case_per_people=corona['oneCasePerPeople'],
-                recovered=corona['recovered'],
-                active=corona['active'],
-                affected_countries=corona['affectedCountries'],
-                population=corona['population'],
-                cases=corona['cases'],
-                today_cases=corona['todayCases'],
-                deaths=corona['deaths'],
-                today_deaths=corona['todayDeaths'],
-                critical_per_one_million=corona['criticalPerOneMillion'],
-                critical=corona['critical'],
-                deaths_per_one_million=corona['deathsPerOneMillion'],
-                tests=corona['tests'],
-                updated=updated,
-                tests_per_one_million=corona['testsPerOneMillion'],
-                today_recovered=corona['todayRecovered'],
-            )
+            return corona
